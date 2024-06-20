@@ -7,11 +7,9 @@
 </head>
 <body>
     <form action="welcome.php" method="POST">
-        Nombre: <input type="text" name="name" pattern="[A-Z|a-z|ñ|Ñ|ü|Ü|á|Á|é|É|í|Í|ó|Ó|ú|Ú]"><br><br>
-       
-        Correo: <input type="text" name="email"><br><br>
-        <input type="submit">
+    Nombre: <input type="text" name="name"><br>
+    E-mail: <input type="email" name="email"><br>
+    <input type="submit">
     </form>
-
 </body>
 </html>
